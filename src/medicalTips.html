@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Tips</title>
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="flex overflow-hidden flex-col items-center bg-white">
+      <header
+        class="flex relative flex-col self-stretch w-full min-h-[447px] max-md:max-w-full"
+      >
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/89a1b5f6eaf654b76c3393f53a18aa4c07fff2c77511e30b716b881eefec3ab8?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+          alt=""
+          class="object-cover absolute inset-0 size-full"
+        />
+        <nav
+          class="flex relative flex-wrap gap-5 justify-between px-20 py-6 w-full text-xs font-medium text-black bg-white max-md:px-5 max-md:max-w-full"
+        >
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d59f388d819c3d5f1d4fb0f1da57542e934f38df6b27d4a3997b0d1b2e8e62bd?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+            alt="Company Logo"
+            class="object-contain shrink-0 aspect-[1.04] w-[83px]"
+          />
+          <div
+            class="flex flex-wrap gap-5 items-center my-auto max-md:max-w-full"
+          >
+            <a href="#about" class="self-stretch my-auto">About</a>
+            <a href="#business" class="self-stretch my-auto">Business</a>
+            <a href="#products" class="self-stretch my-auto">Products</a>
+            <a
+              href="#quality-management"
+              class="self-stretch my-auto basis-auto"
+              >Quality Management</a
+            >
+            <a
+              href="#research-development"
+              class="self-stretch my-auto basis-auto"
+              >Research & Development</a
+            >
+            <a href="#doctors-domain" class="self-stretch my-auto"
+              >Doctors Domain</a
+            >
+            <a href="#human-resources" class="self-stretch my-auto basis-auto"
+              >Human Resources</a
+            >
+            <a
+              href="#contact"
+              class="self-stretch px-7 py-3 text-white bg-indigo-800 rounded-[50px] max-md:px-5"
+              >Contact Us</a
+            >
+            <button aria-label="Search" class="bg-transparent border-none p-0">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf5461d573d407040ebd43d112832e3418bec1daf5353109f03001db914c28b5?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                alt=""
+                class="object-contain shrink-0 self-stretch my-auto aspect-square w-[19px]"
+              />
+            </button>
+          </div>
+        </nav>
+        <div
+          class="flex relative flex-col items-start px-20 pt-5 pb-36 w-full text-white bg-blend-multiply bg-indigo-800 bg-opacity-80 max-md:px-5 max-md:pb-24 max-md:max-w-full"
+        >
+          <nav aria-label="Breadcrumb">
+            <ol class="text-xs font-light">
+              <li class="inline"><a href="/">Home</a> |</li>
+              <li class="inline">
+                <a href="/doctor-domain">Doctor Domain</a> |
+              </li>
+              <li class="inline font-medium text-white">Medical Tips</li>
+            </ol>
+          </nav>
+          <h1
+            class="flex flex-wrap gap-1.5 mt-24 -mb-7 text-3xl font-bold leading-none uppercase max-md:mt-10 max-md:mb-2.5"
+          >
+            Medical Tips/ Clinical Insight
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/bbb72c9a7202712c6fbc5ad302bdb4c50c3b39d76ec1323d074d9759981fd397?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+              alt=""
+              class="object-contain shrink-0 self-start aspect-[1.06] w-[17px]"
+            />
+          </h1>
+        </div>
+      </header>
+      <main class="w-full max-w-[1170px] mt-14 max-md:mt-10 max-md:max-w-full">
+        <div class="flex flex-wrap gap-10 w-full text-xs font-medium">
+          <div class="flex flex-1 gap-3.5 text-black">
+            <label for="entries" class="grow my-auto">Show Entries</label>
+            <select
+              id="entries"
+              name="entries"
+              class="object-contain shrink-0 max-w-full aspect-[2.78] rounded-[50px] w-[111px]"
+            >
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+            </select>
+          </div>
+          <form class="flex flex-1 gap-4 whitespace-nowrap">
+            <label for="search" class="grow my-auto text-black">Search</label>
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Type"
+              class="px-4 py-3 border border-indigo-800 border-solid rounded-[50px] text-zinc-500 max-md:pr-5"
+            />
+          </form>
+        </div>
+        <div class="mt-10 w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col grow px-4 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/49e1c53a86584e5e2961e627e5467dbd6eaffa9c73f421bd423992211af08d38?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col grow px-4 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f275db68e6708ced3f480af656df3fbcf8b6f29790399330d914b192de15c1c?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col grow px-3.5 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7fdcbff6764d8da3c91bb8583d06441d5708b444b70e234e842b6e0d686b1?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col items-start py-5 pr-20 pl-7 mx-auto w-full text-sm text-white bg-indigo-800 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6">
+                  Gout risk in adults with pre-diabetes initiating metformin
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 mt-16 font-bold tracking-tighter uppercase whitespace-nowrap max-md:mt-10"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/f27fa76e281fd7fe4428bbe81f32ef7d2753d4f9ba5d2cfc1e2d8a471b57d738?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col px-8 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  SGLT2i Effect on Atrial Fibrillation: A Network Meta-analysis
+                  of Randomized Controlled Trials
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-12 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap max-md:mt-10"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col px-7 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  Efficacy of single high-dose statin prior to percutaneous
+                  coronary intervention in acute coronary syndrome: a systematic
+                  review and meta-analysis
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-6 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="mt-9 w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col grow px-4 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/49e1c53a86584e5e2961e627e5467dbd6eaffa9c73f421bd423992211af08d38?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col grow px-4 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f275db68e6708ced3f480af656df3fbcf8b6f29790399330d914b192de15c1c?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col grow px-3.5 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7fdcbff6764d8da3c91bb8583d06441d5708b444b70e234e842b6e0d686b1?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col px-8 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  Olmesartan and Azilsartan Equal in Safety and Efficacy in
+                  Patients With Essential Hypertension.
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-12 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap max-md:mt-10"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col px-7 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  Telmisartan & Olmesartan-based Combinations Improve
+                  Cardiovascular Biomarkers in Hypertensive Patients: RECENT
+                  EVIDENCE.
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-7 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col px-7 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  Antimicrobial Efficacy of cefixime-ofloxacin combination for
+                  Salmonella Typhi from bloodstream infection: Recent Evidence.
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-12 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap max-md:mt-10"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="mt-9 w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col grow px-4 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/49e1c53a86584e5e2961e627e5467dbd6eaffa9c73f421bd423992211af08d38?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col grow px-4 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f275db68e6708ced3f480af656df3fbcf8b6f29790399330d914b192de15c1c?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col grow px-3.5 pt-3.5 pb-14 w-full bg-white rounded-xl border border-gray-200 border-solid max-md:mt-3.5"
+              >
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/6bd7fdcbff6764d8da3c91bb8583d06441d5708b444b70e234e842b6e0d686b1?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                  alt="Medical article thumbnail"
+                  class="object-contain w-full aspect-[1.58]"
+                />
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div
+                class="flex flex-col px-8 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  Olmesartan and Azilsartan Equal in Safety and Efficacy in
+                  Patients With Essential Hypertension.
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-12 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap max-md:mt-10"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col px-7 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  Telmisartan & Olmesartan-based Combinations Improve
+                  Cardiovascular Biomarkers in Hypertensive Patients: RECENT
+                  EVIDENCE.
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-7 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+            <article
+              class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full"
+            >
+              <div
+                class="flex flex-col px-7 py-5 mx-auto w-full text-sm bg-violet-50 rounded-xl shadow-[5px_5px_25px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-3.5"
+              >
+                <h2 class="font-semibold leading-6 text-black">
+                  Antimicrobial Efficacy of cefixime-ofloxacin combination for
+                  Salmonella Typhi from bloodstream infection: Recent Evidence.
+                </h2>
+                <a
+                  href="#download"
+                  class="flex gap-1 self-start mt-12 font-bold tracking-tighter text-indigo-800 uppercase whitespace-nowrap max-md:mt-10"
+                >
+                  <span class="grow">Download</span>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4071ad6789768a389693f8a184f24645b2d9aa5d5b39490f15695e9cb8ade5e?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                    alt=""
+                    class="object-contain shrink-0 aspect-square w-[30px]"
+                  />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <button
+          class="px-10 py-3 mt-16 max-w-full text-xs font-medium text-white bg-indigo-800 rounded-[50px] w-[145px] max-md:px-5 max-md:mt-10"
+        >
+          Load More
+        </button>
+      </main>
+      <footer
+        class="flex flex-col self-stretch mt-20 w-full bg-indigo-800 shadow-[1px_-8px_60px_rgba(203,229,251,0.43)] max-md:mt-10 max-md:max-w-full"
+      >
+        <div
+          class="flex relative flex-col px-20 py-14 w-full bg-blend-multiply min-h-[559px] max-md:px-5 max-md:max-w-full"
+        >
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb5ebfa75abf13d66676d73f25e7619e3ee9f50a0e6290b8b0904475ff5b79b5?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+            alt=""
+            class="object-cover absolute inset-0 size-full"
+          />
+          <div
+            class="flex relative flex-wrap gap-5 justify-between w-full text-xs font-medium text-white max-w-[1092px] max-md:max-w-full"
+          >
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/50579fac6f9a6e46b1fbdd04e3dd561d565be2545a0df48286009de77889224a?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+              alt="Company Logo"
+              class="object-contain shrink-0 self-start mt-3.5 max-w-full aspect-[1.02] w-[122px]"
+            />
+            <nav class="flex flex-col items-start">
+              <h3 class="text-xs font-black">Division Products</h3>
+              <ul>
+                <li class="mt-3.5">
+                  <a href="#anti-bacterials">anti bacterials</a>
+                </li>
+                <li class="mt-3">
+                  <a href="#anti-diabetics">anti diabetics</a>
+                </li>
+                <li class="mt-3"><a href="#analgesics">analgesics</a></li>
+                <li class="mt-3"><a href="#cough-cold">Cough & Cold</a></li>
+                <li class="mt-3">
+                  <a href="#nutritional-supplements">nutritional Supplements</a>
+                </li>
+                <li class="mt-3.5">
+                  <a href="#antispasmodics">antispasmodics</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="flex flex-col items-start">
+              <h3 class="self-stretch text-xs font-black">
+                Life science Division Products
+              </h3>
+              <ul>
+                <li class="mt-3.5">
+                  <a href="#anti-bacterials">anti bacterials</a>
+                </li>
+                <li class="mt-3">
+                  <a href="#anti-diabetics">anti diabetics</a>
+                </li>
+                <li class="mt-3"><a href="#analgesics">analgesics</a></li>
+                <li class="mt-3"><a href="#cough-cold">Cough & Cold</a></li>
+                <li class="mt-3">
+                  <a href="#nutritional-supplements">nutritional Supplements</a>
+                </li>
+                <li class="mt-3.5">
+                  <a href="#antispasmodics">antispasmodics</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="flex flex-col items-start">
+              <h3 class="self-stretch text-xs font-black">
+                Excel Division Products
+              </h3>
+              <ul>
+                <li class="mt-3.5">
+                  <a href="#anti-bacterials">anti bacterials</a>
+                </li>
+                <li class="mt-3">
+                  <a href="#anti-diabetics">anti diabetics</a>
+                </li>
+                <li class="mt-3"><a href="#analgesics">analgesics</a></li>
+                <li class="mt-3"><a href="#cough-cold">Cough & Cold</a></li>
+                <li class="mt-3">
+                  <a href="#nutritional-supplements">nutritional Supplements</a>
+                </li>
+                <li class="mt-3.5">
+                  <a href="#antispasmodics">antispasmodics</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="flex flex-col">
+              <h3 class="self-start text-xs font-black">DPCO 2013 Pricelist</h3>
+              <ul>
+                <li class="mt-3.5">
+                  <a href="#pricelist-apr-01-2023"
+                    >DPCO2013 Pricelist Circular-Apr-01-2023</a
+                  >
+                </li>
+                <li class="mt-3">
+                  <a href="#pricelist-apr-01-2023"
+                    >DPCO2013 Pricelist Circular-Apr-01-2023</a
+                  >
+                </li>
+                <li class="mt-3">
+                  <a href="#pricelist-apr-01-2023"
+                    >DPCO2013 Pricelist Circular-Apr-01-2023</a
+                  >
+                </li>
+                <li class="mt-3">
+                  <a href="#pricelist-apr-01-2023"
+                    >DPCO2013 Pricelist Circular-Apr-01-2023</a
+                  >
+                </li>
+                <li class="mt-3">
+                  <a href="#pricelist-apr-01-2023"
+                    >DPCO2013 Pricelist Circular-Apr-01-2023</a
+                  >
+                </li>
+                <li class="mt-3.5">
+                  <a href="#pricelist-apr-01-2023"
+                    >DPCO2013 Pricelist Circular-Apr-01-2023</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <hr
+            class="relative shrink-0 self-end mt-9 max-w-full h-px border border-white border-solid w-[965px]"
+          />
+          <div class="relative self-center mt-10 ml-8 max-w-full w-[828px]">
+            <div class="flex gap-5 max-md:flex-col">
+              <address
+                class="flex flex-col w-[56%] max-md:ml-0 max-md:w-full not-italic"
+              >
+                <div
+                  class="flex relative flex-col items-start w-full text-xs font-medium text-white max-md:mt-10"
+                >
+                  <h3 class="text-xs font-bold">Corporate Office</h3>
+                  <p class="flex gap-3 self-stretch mt-6 leading-4">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/68ba1766facda07046cfad2630a75df49fc90c48c0f1bd8af52f490ca40bb3d8?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                      alt=""
+                      class="object-contain shrink-0 self-start w-3.5 aspect-[0.78]"
+                    />
+                    <span class="flex-auto w-[314px]">
+                      Peninsula Chambers, Peninsula Corporate Park,G.K Marg,
+                      Lower Parel (West), Mumbai, PIN – 400013, Maharashtra,
+                      INDIA.
+                    </span>
+                  </p>
+                  <p class="flex gap-2.5 mt-6">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/2e38d376cfb9a49e22dbbfb0c4c6f4f067a5900d68a9ade5ceb04ea4fb55d477?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                      alt=""
+                      class="object-contain shrink-0 w-3.5 aspect-[0.78]"
+                    />
+                    <span>022-6663 8000</span>
+                  </p>
+                  <p class="flex gap-2.5 mt-7 whitespace-nowrap">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7853091e50beaa8d157af4956f093566f015781a78a6d9c92f132c8fa5446568?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                      alt=""
+                      class="object-contain shrink-0 self-start aspect-[1.25] w-[15px]"
+                    />
+                    <span class="basis-auto">info@bluecrosslabs.com</span>
+                  </p>
+                </div>
+              </address>
+              <nav class="flex flex-col ml-5 w-[21%] max-md:ml-0 max-md:w-full">
+                <div
+                  class="flex relative flex-col grow items-start text-xs font-medium text-white max-md:mt-10"
+                >
+                  <h3 class="text-xs font-bold">Quick Links</h3>
+                  <ul>
+                    <li class="mt-6"><a href="#about">About</a></li>
+                    <li class="mt-3"><a href="#business">Business</a></li>
+                    <li class="mt-3">
+                      <a href="#quality-management">Quality Management</a>
+                    </li>
+                    <li class="mt-3">
+                      <a href="#research-development">Research & Development</a>
+                    </li>
+                    <li class="mt-3">
+                      <a href="#doctors-domain">Doctors Domain</a>
+                    </li>
+                    <li class="mt-3">
+                      <a href="#human-resources">Human Resources</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <nav class="flex flex-col ml-5 w-[23%] max-md:ml-0 max-md:w-full">
+                <div
+                  class="flex relative flex-col items-start text-xs font-medium text-white max-md:mt-10"
+                >
+                  <h3 class="text-xs font-bold">Support</h3>
+                  <ul>
+                    <li class="mt-5">
+                      <a href="#side-effects">Side Effects & ADR Reporting</a>
+                    </li>
+                    <li class="mt-3">
+                      <a href="#manufacturing-partners"
+                        >Manufacturing Partners</a
+                      >
+                    </li>
+                    <li class="mt-3">
+                      <a href="#distribution-partners">Distribution Partners</a>
+                    </li>
+                    <li class="mt-3"><a href="#contact-us">Contact us</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap gap-5 justify-between px-20 py-5 w-full text-xs text-black bg-violet-50 max-md:px-5 max-md:max-w-full"
+        >
+          <p class="max-md:max-w-full">
+            Copyright © 2024 All Rights Reserved Blue Cross Labs |
+            <a href="#site-map">Site Map</a> |
+            <a href="#disclaimer">Disclaimer</a>
+          </p>
+          <p class="font-medium">
+            <span class="text-black">Kwebmaker</span>
+            <span class="text-black">TM</span>
+          </p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="flex overflow-hidden flex-col bg-white">
+      <header
+        class="flex flex-col pt-7 w-full text-xs font-medium text-black bg-white max-md:max-w-full"
+      >
+        <div
+          class="flex flex-wrap gap-5 justify-between self-center w-full max-md:max-w-full px-24"
+        >
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d59f388d819c3d5f1d4fb0f1da57542e934f38df6b27d4a3997b0d1b2e8e62bd?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+            alt="Company logo"
+            class="object-contain shrink-0 aspect-[1.04] w-[83px]"
+          />
+          <nav
+            class="flex flex-wrap gap-5 items-center my-auto max-md:max-w-full"
+          >
+            <a href="#about" class="self-stretch my-auto">About</a>
+            <a href="#business" class="self-stretch my-auto">Business</a>
+            <a href="#products" class="self-stretch my-auto">Products</a>
+            <a href="#quality" class="self-stretch my-auto basis-auto"
+              >Quality Management</a
+            >
+            <a href="#research" class="self-stretch my-auto basis-auto"
+              >Research & Development</a
+            >
+            <a href="#doctors" class="self-stretch my-auto">Doctors Domain</a>
+            <a href="#hr" class="self-stretch my-auto basis-auto"
+              >Human Resources</a
+            >
+            <a
+              href="#contact"
+              class="self-stretch px-7 py-3 text-white bg-indigo-800 rounded-[50px] max-md:px-5"
+              >Contact Us</a
+            >
+            <button
+              aria-label="Search"
+              class="bg-transparent border-0 cursor-pointer"
+            >
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf5461d573d407040ebd43d112832e3418bec1daf5353109f03001db914c28b5?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                alt=""
+                class="object-contain shrink-0 self-stretch my-auto aspect-square w-[19px]"
+              />
+            </button>
+          </nav>
+        </div>
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/aec9811566644e27cb0cece1979d16caaf927c8746aa286f0ff871cf6d967a31?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+          alt="Banner image"
+          class="object-contain mt-5 w-full aspect-[1000] max-md:max-w-full"
+        />
+      </header>
+      <main
+        class="flex flex-col px-20 mt-5 w-full max-md:px-5 max-md:max-w-full px-24"
+      >
+        <nav
+          aria-label="Breadcrumb"
+          class="self-start ml-3 text-xs font-light text-black max-md:ml-2.5"
+        >
+          <ol class="list-none p-0 inline-flex">
+            <li class="flex items-center">
+              <a href="/">Home</a>
+              <span class="mx-2">|</span>
+            </li>
+            <li class="flex items-center">
+              <a href="/products">Products</a>
+              <span class="mx-2">|</span>
+            </li>
+            <li class="flex items-center">
+              <a href="/products/division">Division Products</a>
+              <span class="mx-2">|</span>
+            </li>
+            <li class="flex items-center">
+              <span class="font-medium text-indigo-800">BLUMOX - 250 DT</span>
+            </li>
+          </ol>
+        </nav>
+        <section
+          class="flex flex-row gap-5 self-center mt-10 w-full max-w-[1174px] mx-auto"
+        >
+          <div class="flex flex-col w-1/12 max-w-[117px]">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c63ced7fe6b631b01688396650e90044ef491cf6a4c6be924d60eb3cbdb41360?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+              alt="Product image 1"
+              class="object-contain rounded-xl aspect-[1.17] w-full"
+            />
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5707e716f89aa9b7cd726fd60d1ec0ea5d9634bf5965b461df27fc916a4f61a0?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+              alt="Product image 2"
+              class="object-contain mt-2.5 rounded-xl aspect-[1.16] w-full"
+            />
+          </div>
+
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/18b640f5e616841442b9e0848229d4c606a68361f58c8330067473e81a4144d5?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+            alt="Main product image"
+            class="object-contain w-2/5 rounded-3xl aspect-[1.18]"
+          />
+
+          <div class="flex flex-col w-1/2">
+            <article
+              class="flex flex-col gap-5 px-5 py-3.5 text-sm bg-gray-50 rounded-3xl"
+            >
+              <div class="flex flex-col items-start text-zinc-500">
+                <p class="text-base leading-loose">Anti - Bacterial</p>
+                <h2 class="mt-1 text-2xl font-bold text-indigo-800">
+                  BLUMOX-250 DT
+                </h2>
+                <p class="font-bold leading-loose text-black">
+                  Each Dispersible Tablet Contains:
+                </p>
+                <p class="self-stretch mt-1 leading-loose">
+                  Amoxycillin Trihydrate IP Equivalent to Amoxycillin
+                </p>
+              </div>
+              <p class="font-bold leading-loose text-indigo-800">250 Mg</p>
+            </article>
+
+            <article
+              class="flex flex-col gap-5 px-5 py-3.5 mt-1.5 text-sm bg-gray-50 rounded-3xl"
+            >
+              <div class="flex flex-col items-start text-zinc-500">
+                <p class="text-base leading-loose">Anti - Bacterial</p>
+                <h2 class="mt-1 text-2xl font-bold text-indigo-800">
+                  BLUMOX-500 Capsule
+                </h2>
+                <p class="font-bold leading-loose text-black">
+                  Each Hard Gelatin Capsule Contains:
+                </p>
+                <p class="self-stretch mt-1 leading-loose">
+                  Amoxycillin Trihydrate IP Equivalent to Amoxycillin
+                </p>
+              </div>
+              <p class="font-bold leading-loose text-indigo-800">500 Mg</p>
+            </article>
+
+            <aside
+              class="flex flex-col items-start py-3.5 px-5 mt-1.5 font-bold bg-gray-50 rounded-3xl"
+            >
+              <h3 class="text-lg text-indigo-800">How Supplied</h3>
+              <p class="mt-2 text-sm leading-6 text-black">
+                BLUMOX 250 DT: 15 tablets per strip. BLUMOX 500 Capsules: 15
+                capsules per strip.
+              </p>
+            </aside>
+          </div>
+        </section>
+
+        <p
+          class="self-end mt-5 mr-24 text-xs leading-5 text-zinc-500 max-md:mr-2.5 max-md:max-w-full"
+        >
+          For any further information, healthcare professionals can
+          <a href="#" class="font-bold text-indigo-800 underline">click here</a>
+          to download the Prescribing Information of BLUMOX 250 DT & 500
+          CAPSULE.
+        </p>
+        <button
+          class="flex gap-1.5 self-center mt-5 ml-24 text-base font-semibold leading-loose whitespace-nowrap text-zinc-500 w-[72px]"
+        >
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/740c4113b7e249197c56f05e609e603b5f5df7b601e40aa9c42b1d5cf9883cd7?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+            alt=""
+            class="object-contain shrink-0 self-start w-6 aspect-square"
+          />
+          <span>Share</span>
+        </button>
+        <hr
+          class="shrink-0 self-end mt-4 max-w-full h-px border border-indigo-800 border-solid w-[533px]"
+        />
+      </main>
+      <footer
+        class="flex flex-col mt-16 w-full bg-indigo-800 shadow-[1px_-8px_60px_rgba(203,229,251,0.43)] max-md:mt-10 max-md:max-w-full"
+      >
+        <div
+          class="flex relative flex-col px-20 py-14 w-full bg-blend-multiply min-h-[559px] max-md:px-5 max-md:max-w-full"
+        >
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/bb5ebfa75abf13d66676d73f25e7619e3ee9f50a0e6290b8b0904475ff5b79b5?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+            alt=""
+            class="object-cover absolute inset-0 size-full"
+          />
+          <div
+            class="flex relative flex-wrap gap-5 justify-between w-full text-xs font-medium text-white max-w-[1092px] max-md:max-w-full"
+          >
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/b384d913c07801aa30cfced10e8c1a28c41f7107b027188ef6160919e2df5e32?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+              alt="Company logo"
+              class="object-contain shrink-0 self-start mt-3.5 max-w-full aspect-[1.02] w-[122px]"
+            />
+            <nav class="flex flex-col items-start">
+              <h4 class="text-xs font-black">Division Products</h4>
+              <a href="#" class="mt-3.5">anti bacterials</a>
+              <a href="#" class="mt-3">anti diabetics</a>
+              <a href="#" class="mt-3">analgesics</a>
+              <a href="#" class="mt-3">Cough & Cold</a>
+              <a href="#" class="self-stretch mt-3">nutritional Supplements</a>
+              <a href="#" class="mt-3.5">antispasmodics</a>
+            </nav>
+            <nav class="flex flex-col items-start">
+              <h4 class="self-stretch text-xs font-black">
+                Life science Division Products
+              </h4>
+              <a href="#" class="mt-3.5">anti bacterials</a>
+              <a href="#" class="mt-3">anti diabetics</a>
+              <a href="#" class="mt-3">analgesics</a>
+              <a href="#" class="mt-3">Cough & Cold</a>
+              <a href="#" class="mt-3">nutritional Supplements</a>
+              <a href="#" class="mt-3.5">antispasmodics</a>
+            </nav>
+            <nav class="flex flex-col items-start">
+              <h4 class="self-stretch text-xs font-black">
+                Excel Division Products
+              </h4>
+              <a href="#" class="mt-3.5">anti bacterials</a>
+              <a href="#" class="mt-3">anti diabetics</a>
+              <a href="#" class="mt-3">analgesics</a>
+              <a href="#" class="mt-3">Cough & Cold</a>
+              <a href="#" class="mt-3">nutritional Supplements</a>
+              <a href="#" class="mt-3.5">antispasmodics</a>
+            </nav>
+            <nav class="flex flex-col">
+              <h4 class="self-start text-xs font-black">DPCO 2013 Pricelist</h4>
+              <a href="#" class="mt-3.5"
+                >DPCO2013 Pricelist Circular-Apr-01-2023</a
+              >
+              <a href="#" class="mt-3"
+                >DPCO2013 Pricelist Circular-Apr-01-2023</a
+              >
+              <a href="#" class="mt-3"
+                >DPCO2013 Pricelist Circular-Apr-01-2023</a
+              >
+              <a href="#" class="mt-3"
+                >DPCO2013 Pricelist Circular-Apr-01-2023</a
+              >
+              <a href="#" class="mt-3"
+                >DPCO2013 Pricelist Circular-Apr-01-2023</a
+              >
+              <a href="#" class="mt-3.5"
+                >DPCO2013 Pricelist Circular-Apr-01-2023</a
+              >
+            </nav>
+          </div>
+          <hr
+            class="relative shrink-0 self-end mt-9 max-w-full h-px border border-white border-solid w-[965px]"
+          />
+          <div class="relative self-center mt-10 ml-8 max-w-full w-[828px]">
+            <div class="flex gap-5 max-md:flex-col">
+              <div class="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
+                <address
+                  class="flex relative flex-col items-start w-full text-xs font-medium text-white max-md:mt-10 not-italic"
+                >
+                  <h4 class="text-xs font-bold">Corporate Office</h4>
+                  <div class="flex gap-3 self-stretch mt-6 leading-4">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/68ba1766facda07046cfad2630a75df49fc90c48c0f1bd8af52f490ca40bb3d8?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                      alt=""
+                      class="object-contain shrink-0 self-start w-3.5 aspect-[0.78]"
+                    />
+                    <p class="flex-auto w-[314px]">
+                      Peninsula Chambers, Peninsula Corporate Park,G.K Marg,
+                      Lower Parel (West), Mumbai, PIN – 400013, Maharashtra,
+                      INDIA.
+                    </p>
+                  </div>
+                  <div class="flex gap-2.5 mt-6">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/2e38d376cfb9a49e22dbbfb0c4c6f4f067a5900d68a9ade5ceb04ea4fb55d477?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                      alt=""
+                      class="object-contain shrink-0 w-3.5 aspect-[0.78]"
+                    />
+                    <p>022-6663 8000</p>
+                  </div>
+                  <div class="flex gap-2.5 mt-7 whitespace-nowrap">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7da33ec3d059be92809af086e2709e5bb1b72b15cdf4c0b2861724125a50dda9?placeholderIfAbsent=true&apiKey=ad50bdae186b4891ae511c01a5065694"
+                      alt=""
+                      class="object-contain shrink-0 self-start aspect-[1.25] w-[15px]"
+                    />
+                    <a href="mailto:info@bluecrosslabs.com" class="basis-auto"
+                      >info@bluecrosslabs.com</a
+                    >
+                  </div>
+                </address>
+              </div>
+              <nav class="flex flex-col ml-5 w-[21%] max-md:ml-0 max-md:w-full">
+                <div
+                  class="flex relative flex-col grow items-start text-xs font-medium text-white max-md:mt-10"
+                >
+                  <h4 class="text-xs font-bold">Quick Links</h4>
+                  <a href="#" class="mt-6">About</a>
+                  <a href="#" class="mt-3">Business</a>
+                  <a href="#" class="mt-3">Quality Management</a>
+                  <a href="#" class="self-stretch mt-3"
+                    >Research & Development</a
+                  >
+                  <a href="#" class="mt-3">Doctors Domain</a>
+                  <a href="#" class="mt-3">Human Resources</a>
+                </div>
+              </nav>
+              <nav class="flex flex-col ml-5 w-[23%] max-md:ml-0 max-md:w-full">
+                <div
+                  class="flex relative flex-col items-start text-xs font-medium text-white max-md:mt-10"
+                >
+                  <h4 class="text-xs font-bold">Support</h4>
+                  <a href="#" class="self-stretch mt-5"
+                    >Side Effects & ADR Reporting</a
+                  >
+                  <a href="#" class="mt-3">Manufacturing Partners</a>
+                  <a href="#" class="mt-3">Distribution Partners</a>
+                  <a href="#" class="mt-3">Contact us</a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap gap-5 justify-between px-20 py-5 w-full text-xs text-black bg-gray-50 max-md:px-5 max-md:max-w-full"
+        >
+          <p class="max-md:max-w-full">
+            Copyright © 2024 All Rights Reserved Blue Cross Labs |
+            <a href="/sitemap">Site Map</a> |
+            <a href="/disclaimer">Disclaimer</a>
+          </p>
+          <p class="font-medium">
+            <span class="text-black">Kwebmaker</span>
+            <span class="text-black">TM</span>
+          </p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
